@@ -65,26 +65,75 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.container{
 
-	width:900px;
-	margin:auto;
-	border:1px solid red;
-}
  header nav{
 	 display:inline-block;
-	 margin-top: 10px;
+	 padding: 10px 100px 0px 110px;
+	 border:1px solid red;
+ }
+ header nav a{
+	 color:gray;
+	 margin: 20px;
+	 text-decoration:none;
+	 display:inline-block;
+
  }
 
  header img.logo{
 
+	display: inline-block;
 	margin-left:130px;
 
  } 
 
- header nav a{
-	 margin: 0 20px;
+.top-left{
+	border-bottom: 1px solid black;
+}
+ .top-screen{
+
+	margin:150px;
+	
+}
+.top-screen h1{
+	font-size: 80px;
+	text-align: center;
+}
+
+
+button{
+	
+	margin-left: 110px;
+}
+
+.top-screen , .top-left.img{
+	display: inline-block;
+	margin-right: 250px;
+}
+.middle-img{
+	margin-bottom: 20px;
+	width:100%;
+}
+.features, .about{
+	display:inline-block;
+	margin-top:25px;
+  	margin-bottom: 25px;
+	  width: 48%;
+
+}
+.services,.product,.vision{
+    display: inline-block;
+    width: 30%;
+}
+
+.address{
+	
+	margin-top: 45px;
+    border-top: 1px solid black;
+    padding: 60px 0px 10px 0px;
+}
+ footer{
+	 text-align:center;
  }
 
- 
+
 
