@@ -65,11 +65,14 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+ body{
+	 padding:10px;
+ }
 
  header nav{
 	 display:inline-block;
 	 padding: 10px 100px 0px 110px;
-	 border:1px solid red;
+	 /* border:1px solid red; */
  }
  header nav a{
 	 color:gray;
@@ -98,12 +101,21 @@ h1, h2, h3, h4, h5 {
 	font-size: 80px;
 	text-align: center;
 }
-
-
 button{
-	
-	margin-left: 110px;
+	margin-left:110px;
 }
+
+/*@keyframes fade {
+	from {background-color: red; color: white;}
+	to {background-color: white; color: #F87B99;}
+  }
+
+button:hover{
+	
+	animation-name: fade;
+    animation-duration: 0.5s;
+	margin-left: 110px;
+}*/
 
 .top-screen , .top-left.img{
 	display: inline-block;
